@@ -2,6 +2,10 @@ const htmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
+    devServer: {
+        watchFiles: ["src/*.html"],
+        hot: true,
+      },
     entry : './src/app.ts',
     output : {
         path: __dirname + '/build',
