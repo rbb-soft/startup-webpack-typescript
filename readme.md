@@ -5,6 +5,9 @@
 # clone
     https://github.com/rbb-soft/startup-webpack-typescript.git
 
+# install
+    npm install
+
 # transpile and run devServer
     npm run dev
 
